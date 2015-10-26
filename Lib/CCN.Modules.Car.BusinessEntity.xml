@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.Car.BusinessEntity</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.Car.BusinessEntity.CarInfoModel">
+            <summary>
+            车辆信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.Innerid">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.Carid">
+            <summary>
+            聚合数据车辆id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.title">
+            <summary>
+            车辆标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.pic_url">
+            <summary>
+            封面图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.provid">
+            <summary>
+            省份id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.cityid">
+            <summary>
+            城市id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.brand_id">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.series_id">
+            <summary>
+            车系id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.model_id">
+            <summary>
+            车型id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.colorid">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.buytime">
+            <summary>
+            收购时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.buyprice">
+            <summary>
+            收购价格(万元)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.dealprice">
+            <summary>
+            成交价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.avgprice">
+            <summary>
+            成交均价（万元）(聚合评估)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.dealnumber">
+            <summary>
+            当月成交量 (结算得出)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.isproblem">
+            <summary>
+            重大事故/水浸/火烧
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.sellreason">
+            <summary>
+            转让原因
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.masterdesc">
+            <summary>
+            原车主信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.dealdesc">
+            <summary>
+            成交备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.deletedesc">
+            <summary>
+            删除备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.ckyear_date">
+            <summary>
+            年检到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.tlci_date">
+            <summary>
+            交强险到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.istain">
+            <summary>
+            是否定期保养
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.price">
+            <summary>
+            待售价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.mileage">
+            <summary>
+            行驶里程（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.register_date">
+            <summary>
+            车辆上牌日期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.seller_type">
+            <summary>
+            卖家类型，1表示个人，2表示商家
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.status">
+            <summary>
+            状态状态[1.在售，2.已售，0.已删除]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.remark">
+            <summary>
+            车况备注/优势
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.createdtime">
+            <summary>
+            createdtime
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.modifiedtime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.post_time">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.audit_time">
+            <summary>
+            审核时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.sold_time">
+            <summary>
+            销售时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.keep_time">
+            <summary>
+            存档时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.estimateprice">
+            <summary>
+            车源估值情况
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.eval_price">
+            <summary>
+            车源估值
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.next_year_eval_price">
+            <summary>
+            明年评估价格
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.audit_date">
+            <summary>
+            商业险到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.custid">
+            <summary>
+            会员ID
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.provname">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.cityname">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.brand_name">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.series_name">
+            <summary>
+            车系
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.model_name">
+            <summary>
+            车型
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.geartype">
+            <summary>
+            变速箱类型
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.color">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.liter">
+            <summary>
+            排量
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoModel.dischargeName">
+            <summary>
+            排放标准
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel">
+            <summary>
+            车辆列表显示字段
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.Innerid">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.pic_url">
+            <summary>
+            封面图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.buytime">
+            <summary>
+            收购时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.buyprice">
+            <summary>
+            收购价格(万元)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.dealprice">
+            <summary>
+            成交价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.price">
+            <summary>
+            待售价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.mileage">
+            <summary>
+            行驶里程
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.register_date">
+            <summary>
+            车辆上牌日期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.status">
+            <summary>
+            状态状态[1.在售，2.已售，0.已删除]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.provname">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.cityname">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.brand_name">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.series_name">
+            <summary>
+            车系
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.model_name">
+            <summary>
+            车型
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.geartype">
+            <summary>
+            变速箱类型
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.color">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.liter">
+            <summary>
+            排量
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarInfoListViewModel.dischargeName">
+            <summary>
+            排放标准
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Car.BusinessEntity.CarQueryModel">
+            <summary>
+            车辆查询条件
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.title">
+            <summary>
+            车辆标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.pic_url">
+            <summary>
+            封面图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.provid">
+            <summary>
+            省份id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.cityid">
+            <summary>
+            城市id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.brand_id">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.series_id">
+            <summary>
+            车系id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.model_id">
+            <summary>
+            车型id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.colorid">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.buytime">
+            <summary>
+            收购时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.minbuyprice">
+            <summary>
+            min收购价格(万元)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.maxbuyprice">
+            <summary>
+            max收购价格(万元)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.dealprice">
+            <summary>
+            成交价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.isproblem">
+            <summary>
+            重大事故/水浸/火烧
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.ckyear_date">
+            <summary>
+            年检到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.tlci_date">
+            <summary>
+            交强险到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.istain">
+            <summary>
+            是否定期保养
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.price">
+            <summary>
+            待售价格（万元）
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.mileage">
+            <summary>
+            行驶里程
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.register_date">
+            <summary>
+            车辆上牌日期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.gearid">
+            <summary>
+            变速箱id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.literid">
+            <summary>
+            排量[车型基础数据中有，备用]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.carshructid">
+            <summary>
+            车身结构
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.dischargeid">
+            <summary>
+            排放标准
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.status">
+            <summary>
+            状态状态[1.在售，2.已售，0.已删除]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.createdtime">
+            <summary>
+            createdtime
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.modifiedtime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.post_time">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.audit_time">
+            <summary>
+            审核时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.sold_time">
+            <summary>
+            销售时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.keep_time">
+            <summary>
+            存档时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.audit_date">
+            <summary>
+            商业险到期时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.custid">
+            <summary>
+            会员ID
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarQueryModel.SearchField">
+            <summary>
+            全局搜索字段
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Car.BusinessEntity.CarPictureModel">
+            <summary>
+            车辆图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Carid">
+            <summary>
+            车辆id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Typeid">
+            <summary>
+            类型id code
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Path">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.IsCover">
+            <summary>
+            是否封面 1.是，0不是
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarPictureModel.Createdtime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.Car.BusinessEntity.CarPictureModel.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Car.BusinessEntity.CarShareModel">
+            <summary>
+            车辆分享相关数据model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarShareModel.Carid">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarShareModel.Innerid">
+            <summary>
+            封面图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarShareModel.ShareCount">
+            <summary>
+            分享次数
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarShareModel.SeeCount">
+            <summary>
+            查看次数
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Car.BusinessEntity.CarShareModel.CommentCount">
+            <summary>
+            评论次数
+            </summary>
+        </member>
+    </members>
+</doc>

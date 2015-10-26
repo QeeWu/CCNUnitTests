@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cedar.Foundation.WeChat.Interface</name>
+    </assembly>
+    <members>
+        <member name="T:Cedar.Foundation.WeChat.Interface.IWeChatManagementService">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Cedar.Foundation.WeChat.Interface.IWeChatManagementService.GenerateWechatFriends(System.String)">
+            <summary>
+                更新或重新获取所有会员信息
+            </summary>
+            <param name="appid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cedar.Foundation.WeChat.Interface.IWeChatManagementService.GenerateWechatFriend(System.String,System.String,System.Boolean)">
+            <summary>
+            </summary>
+            <param name="appid"></param>
+            <param name="openid"></param>
+            <param name="isUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cedar.Foundation.WeChat.Interface.IWeChatManagementService.GetFriendInformationByOpenid(System.String,System.String)">
+            <summary>
+                根据openid获取微信粉丝信息
+            </summary>
+            <param name="appid"></param>
+            <param name="openid"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

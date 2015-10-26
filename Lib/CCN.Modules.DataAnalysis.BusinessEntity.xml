@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.DataAnalysis.BusinessEntity</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.DataAnalysis.BusinessEntity.DataAnalysisModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.DataAnalysis.BusinessEntity.DataAnalysisModel.key">
+            <summary>
+            key
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.DataAnalysis.BusinessEntity.DataAnalysisModel.value">
+            <summary>
+            value
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.DataAnalysis.BusinessEntity.DataAnalysisModel.value2">
+            <summary>
+            value2
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.DataAnalysis.BusinessEntity.DataLocalMonthModel">
+            <summary>
+            本地月持有量Top10
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.DataAnalysis.BusinessEntity.DataLocalMonthModel.Quantity">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.DataAnalysis.BusinessEntity.DataLocalMonthModel.ModelId">
+            <summary>
+            车型Id
+            </summary>
+        </member>
+    </members>
+</doc>

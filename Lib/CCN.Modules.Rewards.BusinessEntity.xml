@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.Rewards.BusinessEntity</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel">
+            <summary>
+            礼券model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Innerid">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Titlesub">
+            <summary>
+            子标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Amount">
+            <summary>
+            面额
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Logourl">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Vtype">
+            <summary>
+            有效期类型[1.时间,2.天数]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Vstart">
+            <summary>
+            [1]开始时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Vend">
+            <summary>
+            [1]结束时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Value1">
+            <summary>
+            [2]起效天数
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Value2">
+            <summary>
+            [2]有效天使
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Maxcount">
+            <summary>
+            起始库存
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Count">
+            <summary>
+            当前库存
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Codetype">
+            <summary>
+            Code展示类型，"CODE_TYPE_TEXT"，文本；"CODE_TYPE_BARCODE"，一维码 ；"CODE_TYPE_QRCODE"，二维码；"CODE_TYPE_ONLY_QRCODE",二维码无code显示；"CODE_TYPE_ONLY_BARCODE",一维码无code显示；
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Createdtime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.Modifiedtime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponInfoModel.IsEnabled">
+            <summary>
+            使用启用
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel">
+            <summary>
+            礼券model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Titlesub">
+            <summary>
+            子标题
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.MinAmount">
+            <summary>
+            面额min
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.MaxAmount">
+            <summary>
+            面额max
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Vtype">
+            <summary>
+            有效期类型[1.时间,2.天数]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Maxcount">
+            <summary>
+            起始库存
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Count">
+            <summary>
+            当前库存
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.Codetype">
+            <summary>
+            Code展示类型，"CODE_TYPE_TEXT"，文本；"CODE_TYPE_BARCODE"，一维码 ；"CODE_TYPE_QRCODE"，二维码；"CODE_TYPE_ONLY_QRCODE",二维码无code显示；"CODE_TYPE_ONLY_BARCODE",一维码无code显示；
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CouponQueryModel.IsEnabled">
+            <summary>
+            使用启用
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CustPointModel">
+            <summary>
+            积分model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Type">
+            <summary>
+            1.加2.减
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Sourceid">
+            <summary>
+            来源 【code】
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Point">
+            <summary>
+            积分数
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Validtime">
+            <summary>
+            有效期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointModel.Createdtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.Rewards.BusinessEntity.CustPointModel.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel">
+            <summary>
+            积分model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel.Type">
+            <summary>
+            1.加2.减
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel.Sourceid">
+            <summary>
+            来源 【code】
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel.MinPoint">
+            <summary>
+            积分范围
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel.MaxPoint">
+            <summary>
+            积分范围
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel">
+            <summary>
+            积分model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Type">
+            <summary>
+            1.加2.减
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Source">
+            <summary>
+            来源 【code】
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Point">
+            <summary>
+            积分
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Validtime">
+            <summary>
+            有效期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointViewModel.Createdtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel">
+            <summary>
+            积分兑换礼券 model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Cardid">
+            <summary>
+            礼券id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Sourceid">
+            <summary>
+            来源id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Point">
+            <summary>
+            积分
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Validtime">
+            <summary>
+            有效期
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Createdtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.Code">
+            <summary>
+            礼券code
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel.QrCode">
+            <summary>
+            礼券qrcode
+            </summary>
+        </member>
+    </members>
+</doc>
