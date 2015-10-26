@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.Customer.BusinessEntity</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustResult">
+            <summary>
+            会员操作状态类型
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustResult.errcode">
+            <summary>
+            操作状态码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustResult.errmsg">
+            <summary>
+            结果类型
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustModel">
+            <summary>
+            用户基本信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Custname">
+            <summary>
+            会员名
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Telephone">
+            <summary>
+            固话
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Email">
+            <summary>
+            email
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Headportrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Status">
+            <summary>
+            用户状态[1.正常，2.冻结]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.AuthStatus">
+            <summary>
+            认证状态[0.未提交认证，1.提交认证(待审核)，2.审核通过，3.审核不过，4.重新填写(重新提交认证)]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Provid">
+            <summary>
+            所在地：身份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.ProvName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Cityid">
+            <summary>
+            所在地：城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.CityName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Area">
+            <summary>
+            所在地：区/县
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Sex">
+            <summary>
+            性别 1男2女
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Brithday">
+            <summary>
+            生日
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.QQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Totalpoints">
+            <summary>
+            总积分
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Level">
+            <summary>
+            会员等级
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.QrCode">
+            <summary>
+            二维码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Type">
+            <summary>
+            类型1.车商，2,个人
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Createdtime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Modifiedtime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.VCode">
+            <summary>
+            手机验证码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustModel.Wechat">
+            <summary>
+            用户微信信息
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustQueryModel">
+            <summary>
+            用户基本信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Custname">
+            <summary>
+            会员名
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Telephone">
+            <summary>
+            固话
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Email">
+            <summary>
+            email
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Status">
+            <summary>
+            用户状态[1.正常，2.冻结]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.AuthStatus">
+            <summary>
+            认证状态[0.未提交认证，1.提交认证(待审核)，2.审核通过，3.审核不过，4.重新填写(重新提交认证)]
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Provid">
+            <summary>
+            所在地：身份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Cityid">
+            <summary>
+            所在地：城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Area">
+            <summary>
+            所在地：区/县
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Sex">
+            <summary>
+            性别 1男2女
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Brithday">
+            <summary>
+            生日
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.QQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Type">
+            <summary>
+            类型1.车商，2,个人
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Totalpoints">
+            <summary>
+            总积分
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.Level">
+            <summary>
+            会员等级
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.CreatedtimeS">
+            <summary>
+            注册时间-start
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustQueryModel.CreatedtimeE">
+            <summary>
+            注册时间-end
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustWechat">
+            <summary>
+            用户微信信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Custid">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Accountid">
+            <summary>
+            微信公众号id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Openid">
+            <summary>
+            openid
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Nickname">
+            <summary>
+            微信昵称
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Sex">
+            <summary>
+            性别 1.男2女
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Isdel">
+            <summary>
+            是不删除(1:删除;0:未删除)
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Photo">
+            <summary>
+            微信头像
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Remarkname">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Area">
+            <summary>
+            地区
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Subscribe_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Subscribe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Country">
+            <summary>
+            国家
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustWechat.Createdtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel">
+            <summary>
+            用户认证信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Custid">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Realname">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Idcard">
+            <summary>
+            身份证号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Enterprisename">
+            <summary>
+            企业名称
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Licencecode">
+            <summary>
+            工商营业执照注册号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Licencearea">
+            <summary>
+            营业执照所在地
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Organizationcode">
+            <summary>
+            组织机构代码号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Taxcode">
+            <summary>
+            税务登记证号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Relevantpicture">
+            <summary>
+            相关证件图片
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Createdtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.Modifiedtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.AuditPer">
+            <summary>
+            审核人id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.AuditTime">
+            <summary>
+            审核时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.AuditDesc">
+            <summary>
+            审核描述
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustAuthenticationModel.AuditResult">
+            <summary>
+            审核结果 [1.审核通过，0.审核不过]
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustLoginInfo">
+            <summary>
+            用户登录信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLoginInfo.Username">
+            <summary>
+            会员
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLoginInfo.Mobile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLoginInfo.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLoginInfo.CreateTime">
+            <summary>
+            登录时间
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustRetrievePassword">
+            <summary>
+            修改密码model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustRetrievePassword.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustRetrievePassword.NewPassword">
+            <summary>
+            新密码
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustRetrievePassword.Mobile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustRetrievePassword.VCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustTotalModel">
+            <summary>
+            会员相关总数信息
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTotalModel.Innerid">
+            <summary>
+            内部id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTotalModel.Custid">
+            <summary>
+            会员id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTotalModel.Currpoint">
+            <summary>
+            当前积分
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTotalModel.Currpouponnum">
+            <summary>
+            当前礼券数
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustLaudator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Accountid">
+            <summary>
+            微信公众号id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Openid">
+            <summary>
+            openid
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Nickname">
+            <summary>
+            微信昵称
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Sex">
+            <summary>
+            性别 1.男2女
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Photo">
+            <summary>
+            微信头像
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Remarkname">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Area">
+            <summary>
+            地区
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Subscribe_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Subscribe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Country">
+            <summary>
+            国家
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Createdtime">
+            <summary>
+            点赞时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Tocustid">
+            <summary>
+            被点赞人id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.Carid">
+            <summary>
+            车辆id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudator.IsPraise">
+            <summary>
+            是否重复点赞 ,>0代表点过赞
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation.Laudatorid">
+            <summary>
+            点赞这id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation.Tocustid">
+            <summary>
+            被点赞人id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation.Carid">
+            <summary>
+            车辆id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustLaudatorRelation.Createdtime">
+            <summary>
+            点赞时间
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustTagModel">
+            <summary>
+            会员标签信息model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Tagname">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Hotcount">
+            <summary>
+            热度
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Isenabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Createdtime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagModel.Modifiedtime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.Customer.BusinessEntity.CustTagModel.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel">
+            <summary>
+            会员标签信息model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel.Tagname">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel.Hotcount">
+            <summary>
+            热度
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel.Isenabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel.CreatedtimeS">
+            <summary>
+            创建时间 1
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagQueryModel.ModifiedtimeE">
+            <summary>
+            创建时间 2
+            </summary>
+        </member>
+        <member name="T:CCN.Modules.Customer.BusinessEntity.CustTagRelation">
+            <summary>
+            打标签model
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagRelation.Innerid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagRelation.Tagid">
+            <summary>
+            标签id
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagRelation.Fromid">
+            <summary>
+            谁打的
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagRelation.Toid">
+            <summary>
+            打给谁的
+            </summary>
+        </member>
+        <member name="P:CCN.Modules.Customer.BusinessEntity.CustTagRelation.Createdtime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.Customer.BusinessEntity.CustTagRelation.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+    </members>
+</doc>

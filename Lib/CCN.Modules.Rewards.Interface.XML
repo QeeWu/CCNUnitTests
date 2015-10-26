@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.Rewards.Interface</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.Rewards.Interface.IRewardsManagementService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.ChangePoint(CCN.Modules.Rewards.BusinessEntity.CustPointModel)">
+            <summary>
+            会员积分变更
+            </summary>
+            <param name="model">变更信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.GetCustPointLogPageList(CCN.Modules.Rewards.BusinessEntity.CustPointQueryModel)">
+            <summary>
+            获取会员积分记录列表
+            </summary>
+            <param name="query">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.PointExchangeCoupon(CCN.Modules.Rewards.BusinessEntity.CustPointExChangeCouponModel)">
+            <summary>
+            积分兑换礼券
+            </summary>
+            <param name="model">兑换相关信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.GetCouponPageList(CCN.Modules.Rewards.BusinessEntity.CouponQueryModel)">
+            <summary>
+            获取获取礼券列表
+            </summary>
+            <param name="query">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.AddCoupon(CCN.Modules.Rewards.BusinessEntity.CouponInfoModel)">
+            <summary>
+            添加礼券
+            </summary>
+            <param name="model">礼券信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.UpdateCoupon(CCN.Modules.Rewards.BusinessEntity.CouponInfoModel)">
+            <summary>
+            修改礼券
+            </summary>
+            <param name="model">礼券信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.Rewards.Interface.IRewardsManagementService.GetCouponById(System.String)">
+            <summary>
+            获取礼券信息
+            </summary>
+            <param name="innerid">id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

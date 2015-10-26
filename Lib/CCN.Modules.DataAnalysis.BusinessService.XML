@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCN.Modules.DataAnalysis.BusinessService</name>
+    </assembly>
+    <members>
+        <member name="T:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.#ctor(CCN.Modules.DataAnalysis.BusinessComponent.DataAnalysisBC)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetLocalByMonthTop10">
+            <summary>
+            本地市场按月的持有量TOP10
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetAgeArea">
+            <summary>
+            获取不同年龄段买家分布
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetGenterPer">
+            <summary>
+            获取买家性别比例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetTradeLineByYear">
+            <summary>
+            年度市场交易走势
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUsedCarYearAnalysis">
+            <summary>
+            年度市场交易走势
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUsedCarAccept">
+            <summary>
+            可接受的二手车行驶里程
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetSatisfaction3To5">
+            <summary>
+            3-5万公里满意度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUnSatisfaction3To5">
+            <summary>
+            3-5万公里满意度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetSatisfaction1To3">
+            <summary>
+            1-3万公里满意度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUnSatisfaction1To3">
+            <summary>
+            1-3万公里不满意度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetHotBrandTop10">
+            <summary>
+            月度品牌热搜前10
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUsedCarTradeTop10">
+            <summary>
+            二手车交易量全国占比排行前10省份
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUsedCarTradeLaset8">
+            <summary>
+            二手车交易量全国占比排行倒数8省份
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CCN.Modules.DataAnalysis.BusinessService.DataAnalysisManagementService.GetUsedCarTradeRecentYears">
+            <summary>
+            二手车近几年交易量
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

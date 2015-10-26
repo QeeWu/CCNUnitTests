@@ -1,0 +1,1079 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cedar.Foundation.WeChat.BusinessEntity</name>
+    </assembly>
+    <members>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel">
+            <summary>
+                sr_social_wechat_attention:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel.Userid">
+            <summary>
+                微信平台ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel.Friend">
+            <summary>
+                关注者的ID(即OpenID)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel.Type">
+            <summary>
+                动作类型(1:关注;2:取消关注)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AttentionModel.Createdtime">
+            <summary>
+                关注时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.CardModel">
+            <summary>
+                卡券
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.Account">
+            <summary>
+                微信帐号
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.Code">
+            <summary>
+                卡券的code 编码
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.CardId">
+            <summary>
+                卡券ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.EncryptCode">
+            <summary>
+                通过choose_card_info 获取的加密字符串
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.Offset">
+            <summary>
+                查询卡列表的起始偏移量，从0 开始，即offset: 5 是指从从列表里的第六个开始读取。
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.Count">
+            <summary>
+                需要查询的卡片的数量（数量最大50）
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.Openids">
+            <summary>
+                需要查询的卡片的数量（数量最大50）
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.CardModel.UserNames">
+            <summary>
+                需要查询的卡片的数量（数量最大50）
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel">
+            <summary>
+                FriendModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Accountid">
+            <summary>
+                微信平台ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Nickname">
+            <summary>
+                昵称
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Nicknamebyte">
+            <summary>
+                昵称
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.OPENID">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Photo">
+            <summary>
+                头像路径
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Remarkname">
+            <summary>
+                备注名
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Area">
+            <summary>
+                地区
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Subscribe">
+            <summary>
+                用户是否订阅该公众号标识，值为0时，代表此用户没有关注该公众号，拉取不到其余信息。
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.SubscribeTime">
+            <summary>
+                用户关注时间，为时间戳。如果用户曾多次关注，则取最后关注时间
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Sex">
+            <summary>
+                性别
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Groupid">
+            <summary>
+                群组ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Isdel">
+            <summary>
+                是不删除(1:删除;0:未删除)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Country">
+            <summary>
+                国家
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Province">
+            <summary>
+                省份
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.City">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.FriendModel.Createdtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.Account">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.StartTime">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.EndTime">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.OpenId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.PageSize">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GetRecordModel.PageIndex">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel">
+            <summary>
+                GroupModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Accountid">
+            <summary>
+                微信帐号ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Groupid">
+            <summary>
+                组别ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Name">
+            <summary>
+                组名
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Count">
+            <summary>
+                数量
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Notes">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Statues">
+            <summary>
+                状态(1:删除;0:正常)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupModel.Createdtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel">
+            <summary>
+                MenuModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Accountid">
+            <summary>
+                账户ID
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Level">
+            <summary>
+                菜单级别 1:一级菜单 2:二级菜单
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Menuname">
+            <summary>
+                菜单名称
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Menukey">
+            <summary>
+                菜单Key值(click为必须)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Url">
+            <summary>
+                网页链接(view为必须)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Menutype">
+            <summary>
+                菜单响应动作类型(目前仅为click和view)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Isdel">
+            <summary>
+                是否删除 0:使用;1:删除
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Parentid">
+            <summary>
+                父菜单Key值
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Condition1">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Condition2">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MenuModel.Condition3">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.MediaId">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.ThumbMediaId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.OpenId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Title">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Description">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Url">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.HqMusicUrl">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Account">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Content">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.News">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgModel.Code">
+            <summary>
+                微信code
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.Account">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.OpenId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.Url">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.GroupId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.JsonContent">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.SecurityId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.ParamEx">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.Mediaid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.Content">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.GroupMesgModel.News">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.Account">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.OpenId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.Shopid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.TemplateIdShort">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.Topcolor">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.Url">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendTempletModel.Data">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.QrCodemodel.Account">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.QrCodemodel.ExpireSeconds">
+            <summary>
+                ///
+                <param name="expireSeconds">该二维码有效时间，以秒为单位。 最大不超过1800。0时为永久二维码</param>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.QrCodemodel.SceneId">
+            <summary>
+                ///
+                <param name="sceneId">场景值ID，临时二维码时为32位整型，永久二维码时最大值为1000</param>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgGetuser.Account">
+            <summary>
+                帐号
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgGetuser.NextOpenId">
+            <summary>
+                下一个openid
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AnalysisModel.Account">
+            <summary>
+                帐号
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AnalysisModel.BeginDate">
+            <summary>
+                开始时间
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.AnalysisModel.EndDate">
+            <summary>
+                结束时间
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Accountid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.TemplateIdShort">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Tital">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Channel">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.State">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Templatetype">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Sample">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Templateid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.MesgTemplateModel.Createtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel">
+            <summary>
+                PredefineModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Accountid">
+            <summary>
+                用户id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Keyword">
+            <summary>
+                关键字
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Title">
+            <summary>
+                标题
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Images">
+            <summary>
+                图片
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Description">
+            <summary>
+                描述
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Subtype">
+            <summary>
+                定义是微信机器人使用还是信息发送使用：1：微信机器人使用；2、信息发送使用；
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Socialsource">
+            <summary>
+                回复平台(1：微信；2：微博)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Type">
+            <summary>
+                类型: 1:事件 2:回复
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Url">
+            <summary>
+                原文链接
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Sort">
+            <summary>
+                排序
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Parentid">
+            <summary>
+                父id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Parentidlist">
+            <summary>
+                上层所有父id的列表
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Isenable">
+            <summary>
+                是否可用: 1:可用 0:不可用
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Isdelete">
+            <summary>
+                是否删除 1：已删除 0：未删除
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Summary">
+            <summary>
+                摘要
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Source">
+            <summary>
+                设置来源(1：市场活动 2：微信 3：其他)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Condition1">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Condition2">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Condition3">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.PredefineModel.Createdtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel">
+            <summary>
+                RmClickView:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Evnetkey">
+            <summary>
+                事件KEY值
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmClickViewModel.Createdtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel">
+            <summary>
+                RmEnterModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Innerid">
+            <summary>
+                auto_increment
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmEnterModel.Createtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel">
+            <summary>
+                RmJobMsgEndModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Status">
+            <summary>
+                状态
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Totalcount">
+            <summary>
+                group_id下粉丝数；或者openid_list中的粉丝数
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Filtercount">
+            <summary>
+                过滤（过滤是指，有些用户在微信设置不接收该公众号的消息）后，准备发送的粉丝数，原则上，FilterCount = SentCount + ErrorCount
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Sendcount">
+            <summary>
+                发送成功的粉丝数
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Errorcount">
+            <summary>
+                发送失败的粉丝数
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmJobMsgEndModel.Createdtime">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel">
+            <summary>
+                RmLocationModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Latitude">
+            <summary>
+                地理位置维度，事件类型为LOCATION的时存在
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Longitude">
+            <summary>
+                地理位置经度，事件类型为LOCATION的时存在
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Precision">
+            <summary>
+                地理位置精度，事件类型为LOCATION的时存在
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmLocationModel.Createdtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmModel">
+            <summary>
+                RmModel:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Tousername">
+            <summary>
+                信息发送目标
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Fromusername">
+            <summary>
+                信息源
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Location_X">
+            <summary>
+                地理位置坐标经度
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Location_Y">
+            <summary>
+                地理位置坐标纬度
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Scale">
+            <summary>
+                规模
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Label">
+            <summary>
+                标签
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Mediaid">
+            <summary>
+                媒体id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Picurl">
+            <summary>
+                图片地址
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Format">
+            <summary>
+                语音格式：amr
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Recognition">
+            <summary>
+                语音识别结果，UTF8编码
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Thumbmediaid">
+            <summary>
+                缩略图
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Title">
+            <summary>
+                标题
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Description">
+            <summary>
+                描述
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Url">
+            <summary>
+                地址
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Content">
+            <summary>
+                内容
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmModel.Createdtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel">
+            <summary>
+                sr_social_wechat_requestmsge_scan:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Ticket">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Eventkey">
+            <summary>
+                事件KEY值，是一个32位无符号整数，即创建二维码时的二维码scene_id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmScanModel.Createdtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel">
+            <summary>
+                sr_social_wechat_requestmsge_subscribe:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Fromusername">
+            <summary>
+                发送者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Tousername">
+            <summary>
+                接收者id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Msgid">
+            <summary>
+                消息id
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Msgtype">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Encrypt">
+            <summary>
+                加密
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Eventkey">
+            <summary>
+                事件KEY值，qrscene_为前缀，后面为二维码的参数值（如果不是扫描场景二维码，此参数为空）
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Ticket">
+            <summary>
+                二维码的ticket，可用来换取二维码图片（如果不是扫描场景二维码，此参数为空）
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.RmSubscribeModel.Createdtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel">
+            <summary>
+                sr_social_wechat_sendmessagedetail:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Sendid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Receiveid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Sendtype">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Senddate">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Sendcontent">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Result">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Batchid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.ActivityId">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Condition2">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Condition3">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendmessagedetailModel.Createtime">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Cedar.Foundation.WeChat.Entities.WeChat.SendopenidlistModel">
+            <summary>
+                sr_social_wechat_sendopenidlist:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendopenidlistModel.Innerid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendopenidlistModel.Accountid">
+            <summary>
+                公众号的微信号
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendopenidlistModel.Receiveid">
+            <summary>
+                公众号群发助手的微信号
+            </summary>
+        </member>
+        <member name="P:Cedar.Foundation.WeChat.Entities.WeChat.SendopenidlistModel.Batchid">
+            <summary>
+                批次id
+            </summary>
+        </member>
+        <member name="T:Smartac.Domain.CustWechatModel">
+            <summary>
+                会员扩展表-WeChat
+            </summary>
+        </member>
+    </members>
+</doc>
